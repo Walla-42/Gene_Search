@@ -31,7 +31,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/walla-42/Gene_Search">
-    <img src="Images/Gene_Search.png" alt="Logo" width="600" height="200">
+    <img src="Images/Gene_Search_Logo.png" alt="Logo" width="600" height="200">
   </a>
 
 <h3 align="center">Gene Search</h3>
@@ -62,14 +62,14 @@
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
-    <!--<li>
+    <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li> -->
+    <li><a href="#usage">Usage</a></li> 
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
@@ -83,10 +83,10 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<!--[![Product Name Screen Shot][product-screenshot]](https://example.com)-->
+<!--[![Product Name Screen Shot][product-screenshot]]
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 ### Built With
 
@@ -98,47 +98,63 @@
 
 
 <!-- GETTING STARTED -->
-<!--## Getting Started
+## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+1. Before you can run the program make sure you have an updated version of Python3 and BioPython installed on your system.
+
+
+    ```sh
+    pip install BioPython 
+    ```
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repository
    ```sh
    git clone https://github.com/walla-42/Gene_Search.git
    ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
+<p align="right">(<a href="#readme-top">back to top</a>)</p> 
 
 
 
 <!-- USAGE EXAMPLES -->
-<!--## Usage
+## Usage
 
-This area is still under construction
+To use this program you need to first clone the repository on your system and open the folder in your IDE. 
+Navigate to the 'Main.py' file and hit 'Run'
+<div align=Center>
+  <a href="https://github.com/walla-42/Gene_Search">
+    <img src="Images/Terminal_1.png" alt="Example1" width="500" height="200">
+  </a>
+</div>
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+After hitting run you should see a list of all available sequences in your FASTA file. You will need to select a sequence to run by copying the text after the 'Description:' and pasting it into the terminal.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
+<div align=Center>
+  <a href="https://github.com/walla-42/Gene_Search">
+    <img src="Images/Terminal_2.png" alt="Logo" width="600" height="200">
+  </a>
+</div>
+
+
+
+After pasting the gene description into the terminal you will hit 'Enter' and let the program run. Depending on the length of the sequence this can take up to a minute to finish its search. 
+
+<div align=center>
+  <a href="https://github.com/walla-42/Gene_Search">
+    <img src="Images/Terminal_3.png" alt="Logo" width="450" height="100">
+  </a>
+</div>
+
+If the gene was found in your sequence the program will return the position of the gene in your selected sequence file. 
+
+<!--_For more examples, please refer to the [Documentation](https://example.com)_-->
+<p align="right">(<a href="#readme-top">back to top</a>)</p> 
 
 
 
@@ -217,7 +233,9 @@ Project Link: [https://github.com/walla-42/Gene_Search](https://github.com/walla
 [license-url]: https://github.com/walla-42/Gene_Search/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/walla42
-[product-screenshot]: images/screenshot.png
+[product-screenshot1]: Images/Terminal_1.png
+[product-screenshot2]: Images/Terminal_2.png
+[product-screenshot3]: Images/Terminal_3.png
 [Python.js]: https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54
 [Python-url]: https://www.python.org/
 [SQlite.js]: https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white
