@@ -31,7 +31,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/walla-42/Gene_Search">
-    <img src="Gene_Search.png" alt="Logo" width="600" height="200">
+    <img src="Images/Gene_Search.png" alt="Logo" width="600" height="200">
   </a>
 
 <h3 align="center">Gene Search</h3>
